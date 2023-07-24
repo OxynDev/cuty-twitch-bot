@@ -66,7 +66,7 @@ class Discord_Bot:
         @self.bot.event
         async def on_ready():
             await self.tree.sync(guild=discord.Object(id=self.server_id))
-            await self.bot.change_presence(activity=discord.Game(name=f"excer.pro"))
+            await self.bot.change_presence(activity=discord.Game(name=f"cuty"))
 
 
         # USER
